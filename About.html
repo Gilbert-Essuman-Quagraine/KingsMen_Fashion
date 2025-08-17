@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KING'S MEN FASHION</title>
+    
+    <!--favicon-->
+    <link rel="shortcut icon" href="./Logo/Image.jpg" type="image/jpg">
+      <!--Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com" 
+        crossorigin>
+          <!--Font family-->
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+            wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
+             300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+            rel="stylesheet">
+
+            <!--JQuery.js-->
+            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+            <!--Mobile.css-->
+            <link rel="stylesheet" href="mobile.css">
+</head>
+  <body>
+    <section class="header">
+       <nav>
+       <img src="Logo/Image.jpg" >
+       <p>King's Men Fashion</p>
+         <div class="nav-links active">
+          <div class="toggle" onclick="menutoggle()"><i class="fa fa-bars"></i>
+          </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+         </div> 
+       </nav>
+       <div class="responsive">
+        <h1 class="detail">About Us</h1>
+      <div class="content">
+        <p>King's Men is titched in threads of grace and art, a story told in every part. <br>
+            From fabric spun with care and might, to colors bold, both day and night. <br>
+            A canvas draped on skin with pride, comfort, beauty, strength collide. <br>
+            Each fold, a whisper, soft yet strong, a rhythm where all dreams belong. <br>
+            For every stitch, a journey starts, a blend soul, of mind, of heart. <br>
+            Not just attire, but voice and hue, a language bold, designed for you. <br>
+            In seasons new, through winds that roam this fabric forms you second home. <br>
+            A symbol worn as a king amongst Men.
+        </p>
+       <p>To discover most of our products, you can visit our social media platform below.</p>
+      </div>
+      <div class="icons">
+        <a href="https://x.com/yan_kis_?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/Kings_men_fashion?igsh=MzRIODBINWFIZA=="><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://vm.tiktok.com/ZMSoWANd6/"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </section>
+
+        <div class="footer">
+          <p>&copy; 2025 Developed by Gilbert Essuman Quagraine</p>
+        </div>
+   
+</body>
+     <script>
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+              $('ul').toggleClass('show');
+            });
+        });
+     </script>   
+</html>

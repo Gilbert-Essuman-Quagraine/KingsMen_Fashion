@@ -1,0 +1,73 @@
+@media only screen and (max-width: 858px) {
+    .header{
+        min-height: 90vh;
+        width:100%;
+    }
+    nav p{
+        margin: 10px;
+        color: #fff;
+    }
+      .toggle{
+        display: block;
+     }
+    .nav-links ul{
+        position: fixed;
+        width:65%;
+        height: 65vh;
+        background: #2f3640;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all 3s;
+    }   
+    .nav-links ul li{
+        display: block;
+       margin: 10px 0;
+       line-height: 10px;
+    } 
+    .nav-links ul.show{
+        left:0;
+    }
+    .nav-links ul li:hover::after{
+        width:15%;
+    }
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box p{
+        font-size: 25px;
+    }
+    p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .col{
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        padding: 10px 5px;
+    }
+    .card .card-body{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .card-group{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .card img{
+        max-width: 200px;   
+    }
+    .icons{
+        display: flex;
+        position: absolute;
+        top:75%;
+        left:50%;
+        padding: 4%;
+     }
+}

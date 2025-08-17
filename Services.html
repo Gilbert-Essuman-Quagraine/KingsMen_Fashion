@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KING'S MEN FASHION</title>
+    
+    <!--favicon-->
+    <link rel="shortcut icon" href="./Logo/Image.jpg" type="image/jpg">
+      <!--Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com" 
+        crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+            wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
+             300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+            rel="stylesheet">
+
+            <!--JQuery.js-->
+            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+            <!--Mobile.css-->
+            <link rel="stylesheet" href="mobile.css">
+</head>
+  <body>
+    <section class="header">
+      <nav>
+       <img src="Logo/Image.jpg" >
+       <p>King's Men Fashion</p>
+         <div class="nav-links active">
+          <div class="toggle" onclick="menutoggle()"><i class="fa fa-bars"></i>
+          </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+         </div> 
+       </nav>
+          
+       <div class="container"> 
+        <h3>Our Services</h3>
+     </div>
+       
+       <div class="feed">
+        <p>We prioritize customer satisfaction by offering top-notch customer care services. <br>
+            Our dedicated support team is always ready to assist you with inquires about our <br>
+            products, order tracking, returns and styling advice.
+               </p>
+       </div>
+         
+       <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+           <i class="fa fa-suitcase"></i>
+            <div class="card-body">
+              <h5 class="card-title">24/7 Customer Support</h5>
+              <p class="card-text">Reach us anytime via phone, email or social media.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <i class="fa fa-address-book"></i>
+            <div class="card-body">
+              <h5 class="card-title">Personalized Assistance</h5>
+              <p class="card-text">Get expert recommedations on styles, fits and trends.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <i class="fa fa-building"></i>
+            <div class="card-body">
+              <h5 class="card-title">Order Tracking</h5>
+              <p class="card-text">Stay updated on your order status in real time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+          <i class="fa fa-id-card"></i>
+            <div class="card-body">
+              <h5 class="card-title">Exclusive Membership Benefits</h5>
+              <p class="card-text">Enjoy special offers, early access to collections, and loyalty rewards.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <i class="fa fa-bookmark"></i>
+              <div class="card-body">
+                <h5 class="card-title">The Brand</h5>
+                <p class="card-text">At king's Men Fashion, quality is our signature.
+                    Our permium shirts are crafted from 100% pure cotton, 
+                    ensuring unmatched comfort, durability and breathability. <br>
+                     Elevate your wardrobe with kings Men Fashion - looking good is a must.
+                </p>
+              </div>
+            </div>
+          </div> 
+             <div class="col">
+            <div class="card">
+            <i class="fa fa-phone"></i>
+              <div class="card-body">
+                <h5 class="card-title">The Brand</h5>
+                <p>Your satisfaction is our priority, 
+                  <br> and we are committed to delivering an exceptional <br> shopping
+          experience.
+        </p>
+              </div>
+            </div>
+          </div>
+      </div>          
+        <div class="footer">
+          <p>&copy; 2025 Developed by Gilbert Essuman Quagraine</p>
+        </div>
+</body>
+     <script>
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+              $('ul').toggleClass('show');
+            });
+        });
+     </script>   
+</html>
